@@ -33,7 +33,8 @@
 - **Expo SDK ~52.0.46** - コアExpo開発プラットフォーム
 - **react-navigation ^5.0.0** - React Native用ナビゲーションライブラリ
 - **zustand ^5.0.5** - 軽量状態管理ライブラリ
-- **expo-status-bar** - Expoアプリ用ステータスバーコンポーネント
+- **React Native Paper**
+- **expo-camera**
 
 ### 注意事項
 
@@ -42,5 +43,4 @@
 - Expoアプリは新しいアーキテクチャが有効（app.jsonで`newArchEnabled: true`）
 - iPadサポート（`supportsTablet: true`）
 - クロスプラットフォームサポート（iOS、Android、Web）が設定済み
-- TypeScript設定は存在しない - JavaScriptのみのプロジェクト
-- プロジェクトルートにlintやテスト設定は見つからない
+- JavaScriptのみのプロジェクト
